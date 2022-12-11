@@ -1,0 +1,33 @@
+
+
+.sm-btn{
+ background-color: #7167f7;
+ border: solid 1px #7167f7;
+ transition: ease-in-out 0.25s;
+ color: white;
+    }
+     .sm-btn:hover{
+       background-color: transparent;
+       color:  #7167f7;
+ border: solid 1px #7167f7;
+     }
+     
+  .form-control:focus{
+    z-index: 10;
+    border-color: rgb(197, 155, 249);
+box-shadow: none;
+
+-webkit-box-shadow: none;
+
+  }
+  .btn-link{
+    z-index: 10;
+    border-radius: 50%;
+    border-color:none;
+box-shadow: none;
+
+-webkit-box-shadow: none; 
+  }
+  .btn-link:hover{
+    background-color: rgb(240, 240, 240);
+  }
